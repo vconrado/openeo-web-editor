@@ -2,7 +2,7 @@ export default {
 	// Set this to connect to a back-end automatically when opening the Web Editor,
 	// so you could set this to https://example.com and then the Web Editor connects
 	// to the corresponding back-end automatically.
-	serverUrl: 'http://0.0.0.0/openeo-backend/',
+	serverUrl: '',
 
 	// The name of the service
 	serviceName: 'openEO',
