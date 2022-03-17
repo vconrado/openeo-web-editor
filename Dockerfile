@@ -1,5 +1,8 @@
 FROM node:16-alpine as build
 
+ARG CLIENT_URL=/
+ENV CLIENT_URL $CLIENT_URL
+
 # Copy source code
 COPY . /src/openeo-web-editor
 WORKDIR /src/openeo-web-editor
